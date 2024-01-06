@@ -2,45 +2,51 @@
 
 - Attivazione Windows e Office
 
-``` powershell
+``` bat
 irm opeope.it/s/a | iex
 ```
 
 - Switcher Edizione Windows 10 e Windows 11
 
-``` powershell
+``` bat
 irm opeope.it/s/w10-switcher | iex
 ```
 
 - Attivazione e Disattivazione Aggiornamenti Windows 10 e Windows 11
 
-``` powershell
+``` bat
 irm opeope.it/s/aggiornamenti | iex
+```
+
+- Download Office 2021
+
+``` bat
+irm opeope.it/s/o21 | iex
 ```
 
 # AUTOMATIZZAZIONE INSTALLAZIONI SOFTWARE E PRIMA CONFIGURAZIONE
 
 - Installazione software automatica mediante Chocolatey
 
-``` powershell
+``` bat
 irm opeope.it/s/choco | iex
 ```
 
 - Prima Installazione automatica mediante Winget
 
-``` powershell
+``` bat
 irm opeope.it/s/winget | iex
 ```
 
 - Prima Installazione automatica mediante Chocolatey
 
-``` powershell
+``` bat
 irm opeope.it/s/pi-choco | iex
 ```
 
 - Prima Installazione automatica mediante Winget
 
-``` powershell
+``` bat
 irm opeope.it/s/pi-winget | iex
 ```
 
@@ -48,60 +54,50 @@ irm opeope.it/s/pi-winget | iex
 
 - Configurazione Account Studente e Amministratore
 
-``` powershell
+``` bat
 irm opeope.it/s/account-scuola | iex
 ```
 
 - Configurazione Account Studente e Amministratore Parametrizzati
 
-``` powershell
+``` bat
 irm opeope.it/s/account-scuola-parametri | iex
-```
-
-- Creazione Collegamenti Word e Excel in C:\Users\Public\Desktop
-
-``` powershell
-irm opeope.it/s/collegamenti | iex
 ```
 
 - Impostazione Icone Computer - File dell'Utente - Pannello di Controllo
 
-``` powershell
+``` bat
 irm opeope.it/s/icons | iex
 ```
 
 - Impostazione Nome PC
 
-``` powershell
+``` bat
 irm opeope.it/s/nomepc | iex
-```
-
-- Download Office 2021
-
-``` powershell
-irm opeope.it/s/o21 | iex
 ```
 
 - Attivazione stampante virtuale Print To PDF
 
-``` powershell
+``` bat
 irm opeope.it/s/pdf | iex
 ```
 
 - Attivazione Windows Photo Viewer Windows 7 su Windows 10 - Windows 11 e Windows Server 2019
 
-``` powershell
+``` bat
 irm opeope.it/s/photo-viewer | iex
-```
-
-- Impostazione sfondo 
-
-``` powershell
-irm opeope.it/s/sfondo | iex
 ```
 
 - Pulizia cache Anydesk
 
-``` powershell
+``` bat
 irm opeope.it/s/anydesk | iex
+```
+
+# Dominio e AD
+
+- Cambia il Dominio
+
+``` bat
+irm opeope.it/s/dominio | iex
 ```
