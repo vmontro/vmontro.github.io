@@ -91,7 +91,7 @@ irm opeope.it/s/photo-viewer | iex
 - Pulizia cache Anydesk
 
 ``` bat
-irm opeope.it/s/anydesk | iex
+irm opeope.it/s/ad-ads | iex
 ```
 
 # Dominio e AD
